@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .grid-item {
+        @apply grid grid-cols-4 gap-6
+        
+    }
+}
